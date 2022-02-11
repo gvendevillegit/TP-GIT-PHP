@@ -8,6 +8,11 @@
 </head>
 <body>
     <?PHP
-
+        $AngleAlph = 30;
+        echo "x = cos(".$AngleAlph.") = ".cos($AngleAlph);
+        echo "</br>";
+        echo "y = sin(".$AngleAlph.") = ".sin($AngleAlph);
+        echo "</br>";
+        echo "P = (".number_format(cos($AngleAlph), 2, ',', ' ').", ".number_format(sin($AngleAlph), 2, ',', ' ').")";
     ?>
 </body>
